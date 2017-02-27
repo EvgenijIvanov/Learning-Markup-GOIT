@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(63,63,63, 0.1);
+    background-color: rgba(63,63,63, 0.4);
     position: relative;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ h1,h2,h3,h4,p{
     height: 100%;
     top:0;
     left: 0;
-    /*background-color: rgba(65,82,92, 0.3);*/
+    background-color: rgba(63,63,63, 0.4);
 }
 .wrapper-internal{
     color: #FFFFFF;
@@ -37,9 +37,8 @@ h1,h2,h3,h4,p{
     margin: 0 auto;
 }
 .back-menu{
-    background-color: rgba(221,235,247, 0.2);
+    background-color: rgba(221,235,247, 0.3);
     z-index: 3;
-    border-left: 4px solid orange;
     box-sizing: border-box;
     display: block;
     position: fixed;
@@ -50,7 +49,7 @@ h1,h2,h3,h4,p{
     transition: width 0.75s;
 }
 .back-menu ul{
-    padding: 20px 10px 0;
+    padding: 40px 0 0 20px;
     box-sizing: border-box;
 }
 .back-menu ul li{
@@ -78,13 +77,20 @@ h1,h2,h3,h4,p{
     display: block;
     width: 55px;
     height: 55px;
-    left: -29px;
+    left: -27px;
     line-height: 56px;
     text-align: center;
     border-radius: 50%;
 }
 .index-menu i{
    color: #FFFFFF;
+}
+.line-menu{
+    width: 4px;
+    height: 100vh;
+    background-color: orange;
+    position: absolute;
+    left: 0;
 }
 header{
     position: relative;
