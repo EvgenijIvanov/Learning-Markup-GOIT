@@ -27,7 +27,7 @@ h1,h2,h3,h4,p{
     height: 100%;
     top:0;
     left: 0;
-    background-color: rgba(11,11,11, 0.4);
+    /*background-color: rgba(65,82,92, 0.3);*/
 }
 .wrapper-internal{
     color: #FFFFFF;
@@ -91,7 +91,7 @@ header{
     background: url("img/test.png");
     background-size: cover;
     background-position: center;
-    min-height: 425px;
+    min-height: 525px;
     text-align: center;
 }
 header h2{
