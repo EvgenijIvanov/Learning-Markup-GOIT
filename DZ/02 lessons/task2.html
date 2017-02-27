@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2 - DZ Second</title>
+</head>
+<body>
+<div class="wrapper">
+    <form action="/action1" name="user.form">
+        <label for="name">Name</label><br/>
+        <input id="name" type="text" name="user.name"><br/>
+        <label for="email">Email</label><br/>
+        <input id="email" type="email" name="user.email"><br/>
+        <p>
+        <span>Sex:</span><br/>
+        <input id="sexman" type="radio" name="user.sex" value="Man">
+        <label for="sexman">Man</label>
+        <input id="sexwom" type="radio" name="user.sex" value="Woman">
+        <label for="sexwom">Woman</label><br/>
+        </p><p>
+        <span>Curent status:</span><br/>
+        <input id="stud" type="checkbox" name="user.status" value="stud"><label for="stud">Student</label><br/>
+        <input id="empl" type="checkbox" name="user.status" value="empl"><label for="empl">Employed</label><br/>
+        <input id="uneml" type="checkbox" name="user.status" value="unempl"><label for="uneml">Unemployed</label><br/>
+        </p>
+        <p>
+            <span>Month and Year Birth</span><br/>
+            <input type="month" name="user.birth.month" value="birthday">
+        </p>
+        <p>
+            <span>Skill and Technologies:</span><br/>
+            <select name="user.skiils" id="" multiple size="10">
+                <optgroup label="Tech skill"></optgroup>
+                    <option value="html">Html</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="git">GIT</option>
+                <optgroup label="Soft skills"></optgroup>
+                    <option value="timeman">Time Managment</option>
+                    <option value="proactivity">Proactivity</option>
+                    <option value="teamwork">Teamwork</option>
+                    <option value="leadership">Leadership</option>
+            </select>
+        </p>
+        <p>
+            <span>Photo</span><br/>
+            <input name="user.file" type="file">
+        </p>
+        <p>
+            <label for="comment">Comments</label><br/>
+            <textarea name="user.comment" id="comment" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <span></span>
+            <input type="submit" name="send.user.form">
+            <input type="reset">
+        </p>
+    </form>
+</div>
+</body>
+</html>

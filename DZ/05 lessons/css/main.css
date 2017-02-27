@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Economica', sans-serif;
+}
+p{
+    color: #EAF2F5;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+a{
+    color: inherit;
+    outline: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    min-height: 100px;
+    background-color:  rgba(76,119,171,0.8);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.wrapper-header{
+    box-sizing: border-box;
+    display: block;
+    text-align: end;
+    line-height: 100px;
+    max-width: 960px;
+    min-height: inherit;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.logo-header{
+    float: left;
+    font-size: 52px;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    letter-spacing: 10px;
+}
+.title-header{
+    display: inline;
+}
+.title-header p{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.logo-header p{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    padding: 2px 10px;
+    background-color: #EAF2F5;
+    color: rgba(76,119,171,0.8);
+}
+.menu{
+    height: 38px;
+    line-height: 38px;
+    background-color: #4c77ab;
+    box-shadow: 0 3px 7px rgba(226, 226, 226, 0.8);
+}
+.wrapper-menu{
+    box-sizing: border-box;
+    display: block;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.drop-menu {
+    white-space: nowrap;
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+.drop-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.drop-menu li{
+    padding: 0 20px;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.drop-menu li[class="drop"]{
+    font-weight: 600;
+    color: #EAF2F5;
+}
+.drop-menu li[class="drop"]:hover{
+    cursor: pointer;
+    background-color: #EAF2F5;
+    color: #A0A0A0;
+    box-shadow: 0 3px 7px rgba(226, 226, 226, 0.8);
+}
+.drop-menu li:not([class="drop"]){
+    margin: 0 10px;
+    padding: 0 5px;
+    position: relative;
+}
+.drop-menu li:not([class="drop"]):hover{
+    color: rgba(76,119,171,0.8);
+}
+.drop-menu li:not([class="drop"]):hover:after{
+    position: absolute;
+    top: 28px;
+    left: 0;
+    content: " ";
+    height: 0;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+.drop-menu li ul{
+    text-align: start;
+    background-color: #EAF2F5;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+}
+.drop-menu li ul li{
+    display: inline-block;
+    white-space: nowrap;
+}
+.drop-menu li:hover ul{
+    visibility: visible;
+}
+.wrapper-content{
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    max-width: 960px;
+    background-color: #EAF2F5;
+    box-shadow: 0 3px 7px rgba(226, 226, 226, 0.8);
+}
+.article-img{
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.article-text{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.article-text p{
+    margin: 10px 0;
+    text-align: justify;
+    text-indent: 25px;
+    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+.paginator{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #4c77ab;
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+    display: block;
+}
+.page-number{
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+}
+.page-prm{
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+.page-number:hover{
+    background-color: #A0A0A0;
+}
+.page-number:active{
+    background-color: #4c77ab;
+    color: #FFFFFF;
+    border: 1px solid #4c77ab;
+}
+.footer{
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    color: #ffffff;
+    background-color:  rgba(76,119,171,0.8);
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.wrapper-news{
+    background-color: #EAF2F5;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.wrapper-news p{
+    color: black;
+}
+.container-best-value{
+    display: block;
+    margin: 10px;
+    font-family: "Trebuchet MS";
+    box-sizing: border-box;
+    padding: 4px;
+    width: 300px;
+    height:470px;
+    background-color: rgba(238,129,41, 0.9);
+    border-radius: 3px;
+}
+.container-best-value-header{
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 73px;
+    color: white;
+    font-size: 24px;
+    height: 73px;
+}
+.container-best-value-body{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 23px 15px;
+    background-color: #FFFFFF;
+}
+.container-best-value-body h2{
+    color: rgba(53,73,90,0.9);
+    line-height: 0.8;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.container-best-value-body p{
+    display: inline-block;
+    line-height: 0.8;
+    color: rgba(53,73,90,0.9);
+    position: relative;
+    text-align: center;
+    margin: 27px 0 0;
+    font-size: 72px;
+}
+.container-best-value-body ul{
+    text-align: justify;
+    color: rgba(53,73,90,0.9);
+    list-style-type: none;
+    margin: 25px 0 18px;
+    padding: 0;
+}
+.container-best-value-body li{
+    padding: 6px 0;
+    margin-top: 1px;
+}
+.container-best-value-body li:nth-of-type(2n-1){
+    background-color: rgba(237,245,253, 0.9);
+}
+.container-best-value-body li:nth-of-type(2n){
+    background-color: rgba(245,245,246, 0.9);
+}
+.container-best-value-body span{
+    margin: 0 17px 0 33px;
+    color: rgba(151,190,9,0.9);
+}
+.prm-button{
+    margin: 0 4px 7px;
+}
+.prm-button div{
+    cursor: pointer;
+    text-align: center;
+    line-height: 41px;
+    border-radius: 3px;
+    width: 100%;
+    height: 41px;
+    background-color: rgba(238,129,41, 0.9);
+    color: #FFFFFF;
+    box-shadow: 1px 1px 1px rgba(179,86,11,1);
+    text-shadow: 1px 1px 1px rgba(179,86,11,1);
+}
+.prm-button div:active, .prm-button div:active span{
+    box-shadow:none;
+    text-shadow: none;
+}
+.prm-button span{
+    margin: 0;
+    color: #FFFFFF;
+}
+sub{
+    vertical-align: text-bottom;
+    position: relative;
+    font-size: 18px;
+}
+sup{
+    vertical-align: top;
+    position: relative;
+    font-size: 20px;
+}
+.news-article{
+    float: left;
+    width: 620px;
+}
+.news-sidebar{
+    padding-top: 30px;
+    float: right;
+}
