@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(63,63,63, 0.4);
+    background-color: rgba(240,242,234, 1);
     position: relative;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ a,a:visited, a:active{
     color: #0b0b0b;
 }
 header, article, footer{
-    padding: 0 10px;
+    background-color: #FFFFFF;
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1200px;
@@ -22,14 +22,18 @@ h1,h2,h3,h4,p{
     line-height: 0.8;
 }
 .blind{
+    z-index: 1;
     position: absolute;
     width: 100%;
     height: 100%;
     top:0;
     left: 0;
-    background-color: rgba(63,63,63, 0.4);
+    background-color: rgba(255,245,225, 0.35);
 }
 .wrapper-internal{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
     color: #FFFFFF;
     position: relative;
     z-index: 2;
@@ -37,7 +41,7 @@ h1,h2,h3,h4,p{
     margin: 0 auto;
 }
 .back-menu{
-    background-color: rgba(221,235,247, 0.3);
+    background-color: rgba(63,63,63, 0.4);
     z-index: 3;
     box-sizing: border-box;
     display: block;
@@ -64,20 +68,20 @@ h1,h2,h3,h4,p{
     transition: border-bottom 0.3s;
 }
 .back-menu ul li a:hover{
-    color: orange;
+    color: #E67E30;
     border-bottom: 2px solid;
 }
 .back-menu:hover{
     width: 20%;
 }
 .index-menu{
-    background-color: orange;
+    background-color: #E67E30;
     position: absolute;
     font-size: 25px;
     display: block;
     width: 55px;
     height: 55px;
-    left: -27px;
+    left: -26px;
     line-height: 56px;
     text-align: center;
     border-radius: 50%;
@@ -88,16 +92,12 @@ h1,h2,h3,h4,p{
 .line-menu{
     width: 4px;
     height: 100vh;
-    background-color: orange;
+    background-color: #E67E30;
     position: absolute;
     left: 0;
 }
 header{
     position: relative;
-    background: url("img/test.png");
-    background-size: cover;
-    background-position: center;
-    min-height: 525px;
     text-align: center;
 }
 header h2{
@@ -108,4 +108,27 @@ header h3{
 }
 header p{
     margin: 50px 0 0;
+}
+.logo{
+    text-align: center;
+}
+.logo > span:last-of-type{
+    color: rgba(110,109,192, 1);
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+.logo h1 span{
+    font-family: 'Lobster', cursive;
+    color: #E67E30;
+    font-size: 85px;
+}
+.banner{
+    max-width: 1200px;
+    min-height: 575px;
+    background: url("img/test.png");
+    background-size: cover;
+    background-position: center;
 }
